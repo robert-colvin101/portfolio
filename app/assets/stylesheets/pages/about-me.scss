@@ -1,0 +1,58 @@
+// hey im rob
+
+.section-3 {
+  padding-top: 700px
+}
+.headshot-pic {
+  height: 500px;
+}
+.grey-feature {
+  margin-top: 100px;
+  margin-left:-100px;
+  padding-bottom: 700px;
+  z-index: -2;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background: var(--grey);
+  width: 220%;
+  height: 1200px;
+  transform: rotate(3deg);
+
+}
+
+.grey-feature-2 {
+  margin-top: 300px;
+  margin-left: -100px;
+
+  z-index: -2;
+  position: absolute;
+  top: 90%;
+  left: 0px;
+  background: var(--grey);
+  width: 220%;
+  height: 100px;
+  transform: rotate(-2deg);
+}
+
+.about-me {
+  display: flex;
+}
+
+.about-me-intro {
+  color: var(--blue);
+  margin-top: -50px;
+  margin-left: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  position:relative;
+}
+
+.about-me-details {
+  color: var(--blue);
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 500px;
+  font-size: 32px;
+}

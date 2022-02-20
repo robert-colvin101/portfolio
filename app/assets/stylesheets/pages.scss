@@ -1,16 +1,20 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-* {
-  background: white;
-}
-#container {
-  width: 100vw;
-  height: 100vh;
-  // padding-right: 27%;
+
+:root {
+  --blue: #4B6587;
+  --cream: #F0E5CF;
+  --grey: #E5E5E5;
+  --light-cream: brown;
 }
 
-#headshot{
-  max-width: 30%;
-  max-height: auto;
+body {
+  background: #4B6587;
 }
+
+
+@import "pages/about-me";
+@import "pages/main";
+@import "pages/nice-to-meet";
+@import "pages/what-i-do"

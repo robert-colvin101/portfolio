@@ -1,0 +1,35 @@
+.cream-feature {
+  margin-top: 300px;
+  margin-left: -100px;
+  z-index: -1;
+  position: absolute;
+  top: 2000px;
+  left: 0px;
+  background: var(--cream);
+  width: 220%;
+  height: 120%;
+  transform: rotate(-2deg);
+}
+.what-i-do {
+  margin-top: 600px;
+}
+.what-i-do-title {
+  line-height: 0.9;
+  margin-top: -200px;
+  font-family:  'Rubik Mono One', sans-serif;
+  font-size: 200px;
+  color: white;
+  width: 100%;
+}
+
+.app-web-title {
+  width: 110%;
+  font-size: 100px;
+  font-family: 'Monofett', cursive;
+}
+.what-i-do-info {
+  position: absolute;
+  margin-top: -970px;
+  left: 100%;
+  width: 90%;
+}
